@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+}
+.nav {
+    margin-top: 5px;
+    padding: 10px;
+}
+#header {
+    height: 30px;
+    border-width: 40px 80px;
+    border-top-left-radius: 30px 40px;
+    border-top-right-radius: 50px 30px;
+    border-bottom-right-radius: 50px 30px;
+    background-color: white;
+}
+#gap {
+    height: 100px;
+    width: 130px;
+
+    background-color: white;
+}
+#log {
+    width: 130px;
+    cursor: pointer;
+    background-color: white;
+
+}
+#about {
+    width: 130px;
+    cursor: pointer;
+    background-color: white;
+}
+#awaymissions {
+    width: 130px;
+    cursor: pointer;
+    background-color: white;
+
+}
+#facebook {
+    width: 130px;
+    cursor: pointer;
+    background-color: white;
+
+}
+#footer {
+    height: 30px;
+    background-color: white;
+    border-width: 40px 80px;
+    border-bottom-left-radius: 30px 40px;
+    border-bottom-right-radius: 50px 30px;
+    border-top-right-radius: 50px 30px;
+}
