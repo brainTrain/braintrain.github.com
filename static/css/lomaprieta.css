@@ -58,11 +58,25 @@ body {
 .top {
     width: 100%
 }
+.bottom li {
+    display: inline;
+    list-style-type: none;
+    float: left;
+    margin-right: 2px;
+}
+.bottom {
+    width: 100%
+}
 
 #gap {
     height: 100px;
     width: 130px;
     background-color: #9999FF;
+}
+#welcome {
+    width: 130px;
+    cursor: pointer;
+    background-color: #CC99CC;
 }
 #log {
     width: 130px;

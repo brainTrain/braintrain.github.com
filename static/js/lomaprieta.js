@@ -1,7 +1,12 @@
 $(document).ready( function() {
     
     $('.nav').click(function() {
-        $('.window').attr('src', 'http://' + $(this).attr('url'));
+        $('#content').load($(this).url('src');
+        //$('.window').attr('src', 'http://' + $(this).attr('url'));
+    });
+    $('#diag').click( function() {
+        $('#content').load('load/diagnostics.html');
+
     });
     
     $('.nav').hover( function() {
