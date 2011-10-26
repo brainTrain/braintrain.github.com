@@ -2,8 +2,8 @@ body {
     background-color: black;
     font-family: Techno, Impact, sans-serif;
     font-size: 16px;
-    letter-spacing: -1px;
-    font-weight: 900;
+    letter-spacing: 0.5px;
+    font-weight: 10;
 }
 .clear {
     clear: both;
