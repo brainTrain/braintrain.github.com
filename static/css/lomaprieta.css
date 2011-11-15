@@ -17,7 +17,8 @@ body {
     width: 79%;
     margin-right: 20px;
     margin-top: 6px;
-    overflow: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 .wrapper {
     margin-top: 5px;
