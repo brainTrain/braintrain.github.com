@@ -4,13 +4,13 @@ $(document).ready( function() {
         $('#content').load($(this).attr('url'));
         if($(this).attr('id') == 'log') {
             console.log('thisbelog');
-            $('#content').attr('overflow-y', 'hidden');
-            $('#content').attr('overflow-x', 'hidden');
+            $('#content').css('overflow-y', 'hidden');
+            $('#content').css('overflow-x', 'hidden');
 
         } else {
             console.log('thisaint');
-            $('#content').attr('overflow-y', 'auto');
-            $('#content').attr('overflow-x', 'hidden');
+            $('#content').css('overflow-y', 'auto');
+            $('#content').css('overflow-x', 'hidden');
         
         }
     });
