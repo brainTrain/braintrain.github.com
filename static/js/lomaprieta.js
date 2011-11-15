@@ -2,7 +2,13 @@ $(document).ready( function() {
     
     $('.nav').click(function() {
         $('#content').load($(this).attr('url'));
-        //$('.window').attr('src', 'http://' + $(this).attr('url'));
+        if($(this).attr('id') == 'log') {
+            $('#content').attr('overflow-y', 'hidden');
+
+        } else {
+            $('#content').attr('overflow-y', 'auto');
+        
+        }
     });
     $('#diagnostics').click( function() {
         trace('loading diagnostics');
