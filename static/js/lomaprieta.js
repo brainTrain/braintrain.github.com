@@ -4,9 +4,11 @@ $(document).ready( function() {
         $('#content').load($(this).attr('url'));
         if($(this).attr('id') == 'log') {
             $('#content').attr('overflow-y', 'hidden');
+            $('#content').attr('overflow-x', 'hidden');
 
         } else {
             $('#content').attr('overflow-y', 'auto');
+            $('#content').attr('overflow-x', 'hidden');
         
         }
     });
