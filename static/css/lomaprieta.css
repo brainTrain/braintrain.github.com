@@ -19,6 +19,7 @@ body {
     margin-top: 6px;
     overflow-y: auto;
     overflow-x: hidden;
+    min-width: 900px;
 }
 .wrapper {
     margin-top: 5px;
@@ -64,24 +65,12 @@ body {
     border-bottom-right-radius: 50px 30px;
     background-color: #FF9900;
 }
-.tops {
-    display: inline;
-    list-style-type: none;
-    float: left;
-    margin-right: 2px;
-}
 .top {
-    min-width: 965px;
+    min-width: 1000px;
     width: 100%
 }
-.bottoms {
-    display: inline;
-    list-style-type: none;
-    float: left;
-    margin-right: 2px;
-}
 .bottom {
-    min-width: 965px;
+    min-width: 1000px;
     width: 100%
 }
 
