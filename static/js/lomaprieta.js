@@ -1,7 +1,8 @@
 $(document).ready( function() {
     
     $('.nav').click(function() {
-        $('#content').load($(this).url('url'));
+        trace($(this).attr('url');
+        $('#content').load($(this).attr('url'));
         //$('.window').attr('src', 'http://' + $(this).attr('url'));
     });
     $('#diag').click( function() {
