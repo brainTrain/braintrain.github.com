@@ -4,7 +4,7 @@ $(document).ready( function() {
         $('#content').load($(this).attr('url'));
         //$('.window').attr('src', 'http://' + $(this).attr('url'));
     });
-    $('#diag').click( function() {
+    $('#diagnostics').click( function() {
         trace('loading diagnostics');
         $('#content').load('load/diagnostics.html');
 
