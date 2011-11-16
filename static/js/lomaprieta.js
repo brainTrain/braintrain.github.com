@@ -12,10 +12,6 @@ $(document).ready( function() {
         
         }
     });
-    $('#diagnostics').click( function() {
-        $('#content').load('load/diagnostics.html');
-    });
-    
     $('.nav').hover( function() {
             $(this).css('background-color', '#FFCC99'); 
 
@@ -23,4 +19,13 @@ $(document).ready( function() {
 
             $(this).css('background-color', '#CC99CC'); 
     });
+
+    $('#title').click( function() {
+        $('#content').html('<img src="static/images/ambassadorschematic.jpg"/>');
+    });
+
+    $('#diagnostics').click( function() {
+        $('#content').load('load/diagnostics.html');
+    });
+    
 });

@@ -105,6 +105,7 @@ h2 {
     color: #FF9900;
     font-size: 28px;
     font-weight: bold;
+    cursor: pointer;
 }
 .nav a {
     font-weight: bold;
