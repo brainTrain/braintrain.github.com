@@ -1,11 +1,47 @@
 body {
     background-color: black;
+}
+i {
+    font-style: italic;
+}
+h2 {
+    font-size: 24px;
     font-family: Techno, sans-serif;
-    font-size: 16px;
-    letter-spacing: 0.5px;
     font-weight: bold;
-    font-color: white;
-    
+    letter-spacing: 0.5px;
+
+}
+.welcome_content p {
+    color: white;
+    font-size: 16px;
+    font-family: Techno, sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+
+}
+.enlist_content p {
+    color: white;
+    font-size: 16px;
+    font-family: Techno, sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+
+}
+.library_content p {
+    color: white;
+    font-size: 16px;
+    font-family: Techno, sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+
+}
+.regulations_content p {
+    color: white;
+    font-size: 16px;
+    font-family: Techno, sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+
 }
 .clear {
     clear: both;
