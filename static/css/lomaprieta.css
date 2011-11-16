@@ -1,10 +1,14 @@
 body {
     background-color: black;
+    font-family: Techno, sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.5px;
 }
 i {
     font-style: italic;
 }
 h2 {
+    color: white;
     font-size: 24px;
     font-family: Techno, sans-serif;
     font-weight: bold;
