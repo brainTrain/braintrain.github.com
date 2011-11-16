@@ -3,7 +3,9 @@ body {
     font-family: Techno, sans-serif;
     font-size: 16px;
     letter-spacing: 0.5px;
-    font-weight: 10;
+    font-weight: bold;
+    font-color: white;
+    
 }
 .clear {
     clear: both;
@@ -11,9 +13,9 @@ body {
 
 #content {
     position: absolute;
-    top: 102px;
+    top: 90px;
     left: 165px;
-    height: 602px;
+    height: 613px;
     width: 70%;
     margin-right: 20px;
     margin-top: 6px;
@@ -48,6 +50,7 @@ body {
     color: #FF9900;
     font-size: 28px;
     font-weight: bold;
+    cursor: pointer;
 }
 #header {
     width: 63%;
