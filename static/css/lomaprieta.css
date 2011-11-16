@@ -23,12 +23,18 @@ h2 {
     letter-spacing: 0.5px;
 
 }
+.welcome_content a {
+
+}
 .enlist_content p {
     color: white;
     font-size: 16px;
     font-family: Techno, sans-serif;
     font-weight: bold;
     letter-spacing: 0.5px;
+
+}
+.enlist_content a {
 
 }
 .library_content p {
@@ -39,12 +45,29 @@ h2 {
     letter-spacing: 0.5px;
 
 }
+.library_content a {
+
+}
 .regulations_content p {
     color: white;
     font-size: 16px;
     font-family: Techno, sans-serif;
     font-weight: bold;
     letter-spacing: 0.5px;
+
+}
+.regulations_content a {
+
+}
+.data_content p {
+    color: white;
+    font-size: 16px;
+    font-family: Techno, sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+
+}
+.data_content a {
 
 }
 .clear {
