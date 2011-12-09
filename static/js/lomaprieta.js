@@ -2,7 +2,10 @@ $(document).ready( function() {
     
     var rand = Math.floor(Math.random()*99999);
     var src = $('.rand').attr('src');
-    $('.rand').attr('src', src + rand );
+    console.log( $('.rand').attr('src'));
+    if($('.rand').attr('src')){
+        $('.rand').attr('src', src + rand );
+    }
     
     $('.nav').click(function() {
         $('#content').load($(this).attr('url'));
