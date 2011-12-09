@@ -1,7 +1,8 @@
 $(document).ready( function() {
     
+    var rand = Math.floor(Math.random()*99999)
     var src = $(this).attr('src');
-    $().attr('src', src + Math.floor(Math.random()*99999));
+    $('script').attr('src', src + rand );
     
     $('.nav').click(function() {
         $('#content').load($(this).attr('url'));
