@@ -1,5 +1,8 @@
 $(document).ready( function() {
     
+    var src = $(this).attr('src');
+    $().attr('src', src + Math.floor(Math.random()*99999););
+    
     $('.nav').click(function() {
         $('#content').load($(this).attr('url'));
         if($(this).attr('id') == 'log') {
