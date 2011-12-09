@@ -4,7 +4,7 @@ $(document).ready( function() {
     var src = $('.rand').attr('src');
     var csshref = $('.rand').attr('src');
     $('.rand').attr('src', src + rand );
-    $('.cssrand').attr('src', csshref + rand );
+    $('.cssrand').attr('href', csshref + rand );
     
     $('.nav').click(function() {
         $('#content').load($(this).attr('url'));
