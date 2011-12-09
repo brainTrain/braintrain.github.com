@@ -2,7 +2,7 @@ $(document).ready( function() {
     
     var rand = Math.floor(Math.random()*99999);
     var src = $('.rand').attr('src');
-    console.log( $('.rand').attr('src'));
+    console.log( $('.rand').each(function() {)$('.rand').attr('src');}));
     if($('.rand').attr('src')){
         $('.rand').attr('src', src + rand );
     }
