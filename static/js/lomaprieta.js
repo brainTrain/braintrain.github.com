@@ -1,11 +1,5 @@
 $(document).ready( function() {
     
-    var rand = Math.floor(Math.random()*99999);
-    var src = $('.rand').attr('src');
-    var csshref = $('.rand').attr('src');
-    $('.rand').attr('src', src + rand );
-    $('.cssrand').attr('href', csshref + rand );
-    
     $('.nav').click(function() {
         $('#content').load($(this).attr('url'));
         if($(this).attr('id') == 'log') {
