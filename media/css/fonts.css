@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'sketch-blockbold';
+    src: url('/media/fonts/block-bold-font/sketch_block-webfont.eot');
+    src: url('/media/fonts/block-bold-font/sketch_block-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/media/fonts/block-bold-font/sketch_block-webfont.woff') format('woff'),
+         url('/media/fonts/block-bold-font/sketch_block-webfont.ttf') format('truetype'),
+         url('/media/fonts/block-bold-font/sketch_block-webfont.svg#sketch_blockbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'eraserregular';
+    src: url('/media/fonts/eraser-font/eraserregular-webfont.eot');
+    src: url('/media/fonts/eraser-font/eraserregular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/media/fonts/eraser-font/eraserregular-webfont.woff') format('woff'),
+         url('/media/fonts/eraser-font/eraserregular-webfont.ttf') format('truetype'),
+         url('/media/fonts/eraser-font/eraserregular-webfont.svg#eraserregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
