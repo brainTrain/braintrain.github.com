@@ -157,6 +157,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 /* line 1, ../sass/partials/_portfolio.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 4, ../sass/partials/_portfolio.scss */
 body {
   border: box;
   background: url(/media/img/chalkboard-black-5.png) repeat;
@@ -165,41 +170,61 @@ body {
   color: #CCC;
 }
 
-/* line 8, ../sass/partials/_portfolio.scss */
+/* line 11, ../sass/partials/_portfolio.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'sketch-blockbold', Fallback, sans-serif;
 }
 
-/* line 11, ../sass/partials/_portfolio.scss */
+/* line 14, ../sass/partials/_portfolio.scss */
 h1 {
   font-size: 60px;
+  margin: 15px;
 }
 
-/* line 14, ../sass/partials/_portfolio.scss */
+/* line 18, ../sass/partials/_portfolio.scss */
 h2 {
   font-size: 40px;
+  margin: 10px;
 }
 
-/* line 17, ../sass/partials/_portfolio.scss */
+/* line 22, ../sass/partials/_portfolio.scss */
 h4 {
   font-size: 18px;
+  margin: 5px;
 }
 
-/* line 20, ../sass/partials/_portfolio.scss */
+/* line 26, ../sass/partials/_portfolio.scss */
 a {
   font-family: 'eraserregular', Fallback, sans-serif;
   color: #109fff;
 }
 
-/* line 24, ../sass/partials/_portfolio.scss */
+/* line 30, ../sass/partials/_portfolio.scss */
 .project {
-  margin: 20px;
-  padding: 20px;
-  outline-style: double;
   width: 400px;
+  height: 350px;
+  margin: 20px;
+  outline-style: double;
+  position: relative;
+}
+/* line 36, ../sass/partials/_portfolio.scss */
+.project .content {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
 }
 
-/* line 30, ../sass/partials/_portfolio.scss */
+/* line 44, ../sass/partials/_portfolio.scss */
 .project p {
   font-family: 'eraserregular', Fallback, sans-serif;
+}
+
+/* line 48, ../sass/partials/_portfolio.scss */
+.quick-transition {
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
 }
