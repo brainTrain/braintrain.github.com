@@ -171,12 +171,27 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* line 11, ../sass/partials/_portfolio.scss */
+h1 {
+  font-size: 60px;
+}
+
+/* line 14, ../sass/partials/_portfolio.scss */
+h2 {
+  font-size: 40px;
+}
+
+/* line 17, ../sass/partials/_portfolio.scss */
+h4 {
+  font-size: 18px;
+}
+
+/* line 20, ../sass/partials/_portfolio.scss */
 a {
   font-family: 'eraserregular', Fallback, sans-serif;
   color: #109fff;
 }
 
-/* line 15, ../sass/partials/_portfolio.scss */
+/* line 24, ../sass/partials/_portfolio.scss */
 .project {
   margin: 20px;
   padding: 20px;
@@ -184,7 +199,7 @@ a {
   width: 400px;
 }
 
-/* line 21, ../sass/partials/_portfolio.scss */
+/* line 30, ../sass/partials/_portfolio.scss */
 .project p {
   font-family: 'eraserregular', Fallback, sans-serif;
 }
