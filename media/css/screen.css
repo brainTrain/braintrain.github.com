@@ -1,0 +1,190 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 17, ../../../../home/braintrain/.rvm/gems/ruby-2.1.1/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../home/braintrain/.rvm/gems/ruby-2.1.1/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../home/braintrain/.rvm/gems/ruby-2.1.1/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../home/braintrain/.rvm/gems/ruby-2.1.1/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../home/braintrain/.rvm/gems/ruby-2.1.1/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../home/braintrain/.rvm/gems/ruby-2.1.1/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../home/braintrain/.rvm/gems/ruby-2.1.1/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../home/braintrain/.rvm/gems/ruby-2.1.1/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../home/braintrain/.rvm/gems/ruby-2.1.1/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* this is where the float classes live */
+/* line 2, ../sass/partials/_utils.scss */
+.float-left {
+  float: left;
+}
+
+/* line 5, ../sass/partials/_utils.scss */
+.float-right {
+  float: right;
+}
+
+/* line 8, ../sass/partials/_utils.scss */
+.clear-both {
+  clear: both;
+}
+
+/* line 11, ../sass/partials/_utils.scss */
+.clear-left {
+  clear: left;
+}
+
+/* line 14, ../sass/partials/_utils.scss */
+.clear-right {
+  clear: right;
+}
+
+/* selection classes */
+/* line 19, ../sass/partials/_utils.scss */
+.select-none {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* line 27, ../sass/partials/_utils.scss */
+.cursor-pointer {
+  cursor: pointer;
+}
+
+/* line 30, ../sass/partials/_utils.scss */
+.cursor-default {
+  cursor: default;
+}
+
+/* display/visibility */
+/* line 35, ../sass/partials/_utils.scss */
+.display-none {
+  display: none;
+}
+
+/* line 38, ../sass/partials/_utils.scss */
+.display-block {
+  display: none;
+}
+
+/* line 41, ../sass/partials/_utils.scss */
+.visibility-hidden {
+  visibility: hidden;
+}
+
+/* line 44, ../sass/partials/_utils.scss */
+.visibility-visible {
+  visibility: visible;
+}
+
+/* line 47, ../sass/partials/_utils.scss */
+.display-inline-block {
+  display: inline-block;
+}
+
+@font-face {
+  font-family: 'sketch-blockbold';
+  src: url("/media/fonts/block-bold-font/sketch_block-webfont.eot");
+  src: url("/media/fonts/block-bold-font/sketch_block-webfont.eot?#iefix") format("embedded-opentype"), url("/media/fonts/block-bold-font/sketch_block-webfont.woff") format("woff"), url("/media/fonts/block-bold-font/sketch_block-webfont.ttf") format("truetype"), url("/media/fonts/block-bold-font/sketch_block-webfont.svg#sketch_blockbold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'eraserregular';
+  src: url("/media/fonts/eraser-font/eraserregular-webfont.eot");
+  src: url("/media/fonts/eraser-font/eraserregular-webfont.eot?#iefix") format("embedded-opentype"), url("/media/fonts/eraser-font/eraserregular-webfont.woff") format("woff"), url("/media/fonts/eraser-font/eraserregular-webfont.ttf") format("truetype"), url("/media/fonts/eraser-font/eraserregular-webfont.svg#eraserregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 1, ../sass/partials/_portfolio.scss */
+body {
+  border: box;
+  background: url(/media/img/chalkboard-black-5.png) repeat;
+  font-family: "futura-pt", Fallback, sans-serif;
+  /*font-family: 'eraserregular', Fallback, sans-serif;*/
+  color: #CCC;
+}
+
+/* line 8, ../sass/partials/_portfolio.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'sketch-blockbold', Fallback, sans-serif;
+}
+
+/* line 11, ../sass/partials/_portfolio.scss */
+a {
+  font-family: 'eraserregular', Fallback, sans-serif;
+  color: #109fff;
+}
+
+/* line 15, ../sass/partials/_portfolio.scss */
+.project {
+  margin: 20px;
+  padding: 20px;
+  outline-style: double;
+  width: 400px;
+}
+
+/* line 21, ../sass/partials/_portfolio.scss */
+.project p {
+  font-family: 'eraserregular', Fallback, sans-serif;
+}
