@@ -1,13 +1,23 @@
 body {
+    border: box;
     background:url(/media/img/chalkboard-black-5.png) repeat;
-    font-family: 'eraserregular', Fallback, sans-serif;
+    font-family: "futura-pt", Fallback, sans-serif;
+    /*font-family: 'eraserregular', Fallback, sans-serif;*/
     color: #CCC;
 }
-
 h1,h2,h3,h4,h5,h6 {
     font-family: 'sketch-blockbold', Fallback, sans-serif;
 }
-
 a {
+    font-family: 'eraserregular', Fallback, sans-serif;
     color: rgb(16, 159, 255);
+}
+.project {
+    margin: 20px;
+    padding: 20px;
+    outline-style: double;
+    width: 400px;
+}
+.project p {
+    font-family: 'eraserregular', Fallback, sans-serif;
 }
