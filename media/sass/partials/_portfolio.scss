@@ -1,11 +1,12 @@
+/*
+    standard html object overrides
+*/
 html, body {
     height: 100%;
 }
 body {
-    border: box;
     background:url(/media/img/chalkboard-black-5.png) repeat;
     font-family: "futura-pt", Fallback, sans-serif;
-    /*font-family: 'eraserregular', Fallback, sans-serif;*/
     color: #CCC;
 }
 h1,h2,h3,h4,h5,h6 {
@@ -13,38 +14,54 @@ h1,h2,h3,h4,h5,h6 {
 }
 h1 {
     font-size: 60px;
-    margin: 15px;
 }
 h2 {
     font-size: 40px;
-    margin: 10px;
 }
 h4 {
     font-size: 18px;
-    margin: 5px;
 }
 a {
     font-family: 'eraserregular', Fallback, sans-serif;
     color: rgb(16, 159, 255);
 }
+
+/*
+    content/position specific 
+*/
+.page-title {
+    margin: 15px;
+}
 .project {
     width: 400px;
-    height: 350px;
+    height: 230px;
     margin: 20px;
     outline-style: double;
     position: relative;
+
+    .project-header {
+        margin: 10px;
+    }
     .content {
         position: absolute;
         top: 10px;
         left: 10px;
         right: 10px;
         bottom: 10px;
+
+        .location {
+            margin: 12px;
+            font-family: 'eraserregular', Fallback, sans-serif;
+        }
+        .short-header {
+            margin: 15px;
+            margin-top: 20px;
+        }
+        .short-description {
+            margin: 15px;
+        }
     }
 }
-.project p {
-    font-family: 'eraserregular', Fallback, sans-serif;
-}
-
 .quick-transition {
     @include transition(all 0.25s ease-in-out);
 }

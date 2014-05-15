@@ -67,6 +67,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
+/*@import "lib/susy";*/
 /* this is where the float classes live */
 /* line 2, ../sass/partials/_utils.scss */
 .float-left {
@@ -156,58 +157,68 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   font-style: normal;
 }
 
-/* line 1, ../sass/partials/_portfolio.scss */
+/*
+    standard html object overrides
+*/
+/* line 4, ../sass/partials/_portfolio.scss */
 html, body {
   height: 100%;
 }
 
-/* line 4, ../sass/partials/_portfolio.scss */
+/* line 7, ../sass/partials/_portfolio.scss */
 body {
-  border: box;
   background: url(/media/img/chalkboard-black-5.png) repeat;
   font-family: "futura-pt", Fallback, sans-serif;
-  /*font-family: 'eraserregular', Fallback, sans-serif;*/
   color: #CCC;
 }
 
-/* line 11, ../sass/partials/_portfolio.scss */
+/* line 12, ../sass/partials/_portfolio.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'sketch-blockbold', Fallback, sans-serif;
 }
 
-/* line 14, ../sass/partials/_portfolio.scss */
+/* line 15, ../sass/partials/_portfolio.scss */
 h1 {
   font-size: 60px;
-  margin: 15px;
 }
 
 /* line 18, ../sass/partials/_portfolio.scss */
 h2 {
   font-size: 40px;
-  margin: 10px;
 }
 
-/* line 22, ../sass/partials/_portfolio.scss */
+/* line 21, ../sass/partials/_portfolio.scss */
 h4 {
   font-size: 18px;
-  margin: 5px;
 }
 
-/* line 26, ../sass/partials/_portfolio.scss */
+/* line 24, ../sass/partials/_portfolio.scss */
 a {
   font-family: 'eraserregular', Fallback, sans-serif;
   color: #109fff;
 }
 
-/* line 30, ../sass/partials/_portfolio.scss */
+/*
+    content/position specific 
+*/
+/* line 32, ../sass/partials/_portfolio.scss */
+.page-title {
+  margin: 15px;
+}
+
+/* line 35, ../sass/partials/_portfolio.scss */
 .project {
   width: 400px;
-  height: 350px;
+  height: 230px;
   margin: 20px;
   outline-style: double;
   position: relative;
 }
-/* line 36, ../sass/partials/_portfolio.scss */
+/* line 42, ../sass/partials/_portfolio.scss */
+.project .project-header {
+  margin: 10px;
+}
+/* line 45, ../sass/partials/_portfolio.scss */
 .project .content {
   position: absolute;
   top: 10px;
@@ -215,13 +226,22 @@ a {
   right: 10px;
   bottom: 10px;
 }
-
-/* line 44, ../sass/partials/_portfolio.scss */
-.project p {
+/* line 52, ../sass/partials/_portfolio.scss */
+.project .content .location {
+  margin: 12px;
   font-family: 'eraserregular', Fallback, sans-serif;
 }
+/* line 56, ../sass/partials/_portfolio.scss */
+.project .content .short-header {
+  margin: 15px;
+  margin-top: 20px;
+}
+/* line 60, ../sass/partials/_portfolio.scss */
+.project .content .short-description {
+  margin: 15px;
+}
 
-/* line 48, ../sass/partials/_portfolio.scss */
+/* line 65, ../sass/partials/_portfolio.scss */
 .quick-transition {
   -webkit-transition: all 0.25s ease-in-out;
   -moz-transition: all 0.25s ease-in-out;
