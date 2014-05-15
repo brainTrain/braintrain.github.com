@@ -233,15 +233,14 @@ a {
 }
 /* line 56, ../sass/partials/_portfolio.scss */
 .project .content .short-header {
-  margin: 15px;
-  margin-top: 20px;
+  margin: 20px 0px 0px 15px;
 }
-/* line 60, ../sass/partials/_portfolio.scss */
+/* line 59, ../sass/partials/_portfolio.scss */
 .project .content .short-description {
-  margin: 15px;
+  margin: 3px 0px 0px 15px;
 }
 
-/* line 65, ../sass/partials/_portfolio.scss */
+/* line 64, ../sass/partials/_portfolio.scss */
 .quick-transition {
   -webkit-transition: all 0.25s ease-in-out;
   -moz-transition: all 0.25s ease-in-out;
