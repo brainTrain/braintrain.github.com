@@ -1,5 +1,5 @@
-angular.module('brainTrainProjects.controllers', []).
-controller('projectController', function($scope) {
+angular.module('brainTrainProjects.controllers', [])
+.controller('projectController', function($scope) {
     $scope.projectList = [
         {
             "name":"boozybrowser",
@@ -120,8 +120,8 @@ controller('projectController', function($scope) {
                 },
                 {
                     "header": "github",
-                    "url":"http://www.nerdpaper.com",
-                    "label": "nerdpaper.com"
+                    "url":"https://github.com/braintrain/fuckingsf/",
+                    "label": "github repo"
                 }
             ],
             "summary": "Floating splash site!",

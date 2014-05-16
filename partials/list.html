@@ -1,0 +1,13 @@
+<div class="project float-left quick-transition" ng-repeat="project in projectList">
+    <div class="content">
+        <h2 class="project-header">{{ project.title }}</h2>
+        <div ng-repeat="location in project.locations">
+            <p class="location">{{ location.header }}: <a href="{{ location.url }}" target="_blank">{{ location.label }}</a></p>
+        </div>
+        <h4 class="short-header">tl;dr:</h4>
+        <p class="short-description">{{ project.summary }}</p>
+        <div class="full-description display-none">
+            {{ project.description }}
+        </div>
+    </div>
+</div>

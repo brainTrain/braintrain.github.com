@@ -7,7 +7,10 @@
 
         <link type="text/css" rel="stylesheet" href="/media/css/screen.css">
 
-        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.min.js"></script>
+        <!--<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.min.js"></script>-->
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular-route.min.js"></script>
+
 
         <script type="text/javascript" src="/media/js/app.js"></script>
         <script type="text/javascript" src="/media/js/controllers.js"></script>
@@ -15,18 +18,7 @@
     <body ng-app="brainTrainProjects" ng-controller="projectController">
         <div class="portfolio-content">
             <h1 class="page-title">brainTrain's Lackluster Laboratory</h1>
-            <div class="project float-left quick-transition" ng-repeat="project in projectList">
-                <div class="content">
-                    <h2 class="project-header">{{ project.title }}</h2>
-                    <div ng-repeat="location in project.locations">
-                        <p class="location">{{ location.header }}: <a href="{{ location.url }}" target="_blank">{{ location.label }}</a></p>
-                    </div>
-                    <h4 class="short-header">tl;dr:</h4>
-                    <p class="short-description">{{ project.summary }}</p>
-                    <div class="full-description display-none">
-                        {{ project.description }}
-                    </div>
-                </div>
-            </div>
+            <ng-view></ng-view>
         </div>
+    </body>
 </html>
