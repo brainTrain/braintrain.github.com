@@ -8,112 +8,24 @@
         <link type="text/css" rel="stylesheet" href="/media/css/screen.css">
 
         <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.min.js"></script>
+
+        <script type="text/javascript" src="/media/js/app.js"></script>
+        <script type="text/javascript" src="/media/js/controllers.js"></script>
     </head>
-    <body>
+    <body ng-app="brainTrainProjects" ng-controller="projectController">
         <div class="portfolio-content">
             <h1 class="page-title">brainTrain's Lackluster Laboratory</h1>
-            <div class="project float-left quick-transition">
+            <div class="project float-left quick-transition" ng-repeat="project in projectList">
                 <div class="content">
-                    <h2 class="project-header">boozybrowser</h2>
-                    <p class="location">url: <a href="http://www.boozybrowser.com" target="_blank">boozybrowser.com</a></p>
-                    <p class="location">github: <a href="https://github.com/braintrain/boozybrowser/" target="_blank">github repo</a></p>
+                    <h2 class="project-header">{{ project.title }}</h2>
+                    <div ng-repeat="location in project.locations">
+                        <p class="location">{{ location.header }}: <a href="{{ location.url }}" target="_blank">{{ location.label }}</a></p>
+                    </div>
                     <h4 class="short-header">tl;dr:</h4>
-                    <p class="short-description">Make the internet drunk! (chrome plugin)</p>
-                    <ul class="full-description display-none">
-                        <li>chrome plugin</li>
-                        <li>css animations (not super performant)</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="project float-left quick-transition">
-                <div class="content">
-                    <h2 class="project-header">fuckingrainbows</h2>
-                    <p class="location">url: <a href="http://braintrain.github.io/fuckingrainbows/" target="_blank">fuckingrainbows!!!</a></p>
-                    <p class="location">github: <a href="https://github.com/braintrain/fuckingrainbows/" target="_blank">github repo</a></p>
-                    <h4 class="short-header">tl;dr:</h4>
-                    <p class="short-description">Invade the web with fabulous CSS3 rainbows! (bookmarklet)</p>
-                    <ul class="full-description display-none">
-                        <li>websockets consumer (read: frontend only... er kinda)</li>
-                        <li>jQuery/CSS selector approximation of the js this object</li>
-                        <li>websockets + this-ish selector = remote clicking! (Don't worry, most people don't get what that means either)</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="project float-left quick-transition">
-                <div class="content">
-                    <h2 class="project-header">USS Loma Prieta</h2>
-                    <p class="location">url: <a href="http://braintrain.github.io/lomaprieta/" target="_blank">USS Loma Prieta</a></p>
-                    <p class="location">github: <a href="https://github.com/braintrain/lomaprieta/" target="_blank">github repo</a></p>
-                    <h4 class="short-header">tl;dr:</h4>
-                    <p class="short-description">Almost LCARS UI for an SF Star Trek club!</p>
-                    <ul class="full-description display-none">
-                        <li>super static site using CSS for LCARS flavorz</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="project float-left quick-transition">
-                <div class="content">
-                    <h2 class="project-header">brainnewstuff</h2>
-                    <p class="location">url: <a href="https://brainnewstuff.com" target="_blank">brainnewstuff.com</a></p>
-                    <p class="location">github: <a href="https://github.com/braintrain" target="_blank">ask me! :D</a></p>
-                    <h4 class="short-header">tl;dr:</h4>
-                    <p class="short-description">My digital code/config/command line notepad.</p>
-                    <ul class="full-description display-none">
-                        <li>django site for keeping track of technical notes</li>
-                        <li>sendmail install/config</li>
-                        <li>SSL cert</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="project float-left quick-transition">
-                <div class="content">
-                    <h2 class="project-header">I am Ed</h2>
-                    <p class="location">url: <a href="https://github.com/braintrain" target="_blank">ask me! :D</a></p>
-                    <p class="location">github: <a href="https://github.com/braintrain" target="_blank">ask me! :D</a></p>
-                    <h4 class="short-header">tl;dr:</h4>
-                    <p class="short-description">Twilio audio blog for a friend with a non-smart cell phone.</p>
-                    <ul class="full-description display-none">
-                        <li>hacker news comment about I am Ed <a href="https://news.ycombinator.com/item?id=7655742">https://news.ycombinator.com/item?id=7655742</a></li>
-                        <li>django site for Ed's audio thoughts and images</li>
-                        <li>sendmail with email endpoints for a non-smartphone control (i.e. whitelisting email addresses, texting images to web server)</li>
-                        <li>PIL(Python Image Library) for image saving and resizing</li>
-                        <li>twilio so Ed can just call a number to submit an audio blog type post</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="project float-left quick-transition">
-                <div class="content">
-                    <h2 class="project-header">atoddswithclarity</h2>
-                    <p class="location">url: <a href="https://www.atoddswithclarity.com" target="_blank">atoddswithclarity.com</a></p>
-                    <p class="location">github: <a href="https://github.com/braintrain" target="_blank">ask me! :D</a></p>
-                    <h4 class="short-header">tl;dr:</h4>
-                    <p class="short-description">Personal indieweb integrated blog!</p>
-                    <ul class="full-description display-none">
-                        <li>django site for blogging/posting to facebook/twitter using indieweb practices</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="project float-left">
-                <div class="content">
-                    <h2 class="project-header">fuckingsf</h2>
-                    <p class="location">url: <a href="http://www.fuckingsf.com" target="_blank">fuckingsf.com</a></p>
-                    <p class="location">github: <a href="https://github.com/braintrain/fuckingsf/" target="_blank">github repo</a></p>
-                    <h4 class="short-header">tl;dr:</h4>
-                    <p class="short-description">Floating splash site!</p>
-                    <ul class="full-description display-none">
-                        <li>playing around with splash pages/CSS keyframing (it floats!)</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="project float-left quick-transition">
-                <div class="content">
-                    <h2 class="project-header">nerdpaper</h2>
-                    <p class="location">url: <a href="http://www.nerdpaper.com" target="_blank">nerdpaper.com</a></p>
-                    <h4 class="short-header">tl;dr:</h4>
-                    <p class="short-description">Highcharts series controls!</p>
-                    <ul class="full-description display-none">
-                        <li>playing around with highcharts, controls allow users to compare multiple bar graphs by sliding one over the other.</li>
-                    </ul>
+                    <p class="short-description">{{ project.summary }}</p>
+                    <div class="full-description display-none">
+                        {{ project.description }}
+                    </div>
                 </div>
             </div>
         </div>
