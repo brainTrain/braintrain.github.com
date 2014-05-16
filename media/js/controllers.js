@@ -124,8 +124,8 @@ controller('projectController', function($scope) {
                     "label": "nerdpaper.com"
                 }
             ],
-            "summary": "Highcharts series controls!",
-            "description": "playing around with highcharts, controls allow users to compare multiple bar graphs by sliding one over the other."
+            "summary": "Floating splash site!",
+            "description": "playing around with splash pages/CSS keyframing (it floats!)"
         },
         {
             "name":"nerdpaper",
