@@ -1,19 +1,15 @@
 angular.module('brainTrainProjects', [
     'brainTrainProjects.controllers',
-    //'brainTrainProjects.services',
+    'brainTrainProjects.services',
     'ngRoute'
 ])
 .config(['$routeProvider', function($routeProvider) {
     $routeProvider
         .when('/', {
             templateUrl: 'partials/list.html', 
-            controller: 'projectController'
+            controller: 'projectsController'
         })
-        .when('/project/:id', {
-            templateUrl: 'partials/project.html', 
-            controller: 'projectController'
-        })
-        .when('/project/:name', {
+        .when('/:name', {
             templateUrl: 'partials/project.html', 
             controller: 'projectController'
         })

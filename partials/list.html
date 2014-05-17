@@ -1,3 +1,6 @@
+<h1 class="page-title">brainTrain's Lackluster Laboratory</h1>
+<h2 class="page-title">(An angularjs powered static portfolio site)</h2>
+<p class="location">github: <a href="https://github.com/brainTrain/braintrain.github.com" target="_blank">view my source!</a></p>
 <div class="project float-left quick-transition" ng-repeat="project in projectList">
     <div class="content">
         <h2 class="project-header">{{ project.title }}</h2>
@@ -9,5 +12,6 @@
         <div class="full-description display-none">
             {{ project.description }}
         </div>
+        <p class="location"><a href="#/{{ project.name }}">Details!</a></p>
     </div>
 </div>
