@@ -143,6 +143,12 @@ angular.module('brainTrainProjects.services', [])
                 ],
                 "summary": "Highcharts series controls!",
                 "description": "playing around with highcharts, controls allow users to compare multiple bar graphs by sliding one over the other."
+            },
+            {
+                "name":"ecosystem",
+                "title":"Ecosystem Shit",
+                "summary": "All projects here are either hosted on github or a box I built on linode or digital ocean.",
+                "description": "So far I've proven to myself that I can do anything I want with one box. My next ops-type goal is to learn how to configure varnish to cache all of the requests from all of the projects I'm currently hosting."
             }
         ]
         return projectsList;
