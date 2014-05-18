@@ -1,9 +1,9 @@
 angular.module('brainTrainProjects.services', [])
-.factory('projectsAPIservice', function(){
+.factory('projectsAPIservice', function($filter){
     var projectsAPI = {},
         projectsList;
 
-    projectsAPI.getProjects = function() {
+    projectsAPI.getProjects = function(projectName) {
         projectsList = [
             {
                 "name":"boozybrowser",
@@ -151,6 +151,9 @@ angular.module('brainTrainProjects.services', [])
                 "description": "So far I've proven to myself that I can do anything I want with one box. My next ops-type goal is to learn how to configure varnish to cache all of the requests from all of the projects I'm currently hosting."
             }
         ]
+        if(projectName) {
+            projectsList = $filter('filter')( projectsList, {'name': projectName}, true);
+        }
         return projectsList;
     }
 
