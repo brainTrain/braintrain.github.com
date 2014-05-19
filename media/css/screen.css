@@ -1,249 +1,86 @@
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 17, ../../../../home/braintrain/.rvm/gems/ruby-2.1.1/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font: inherit;
-  font-size: 100%;
-  vertical-align: baseline;
-}
-
-/* line 22, ../../../../home/braintrain/.rvm/gems/ruby-2.1.1/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-html {
-  line-height: 1;
-}
-
-/* line 24, ../../../../home/braintrain/.rvm/gems/ruby-2.1.1/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-ol, ul {
-  list-style: none;
-}
-
-/* line 26, ../../../../home/braintrain/.rvm/gems/ruby-2.1.1/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-/* line 28, ../../../../home/braintrain/.rvm/gems/ruby-2.1.1/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-caption, th, td {
-  text-align: left;
-  font-weight: normal;
-  vertical-align: middle;
-}
-
-/* line 30, ../../../../home/braintrain/.rvm/gems/ruby-2.1.1/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-q, blockquote {
-  quotes: none;
-}
-/* line 103, ../../../../home/braintrain/.rvm/gems/ruby-2.1.1/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-q:before, q:after, blockquote:before, blockquote:after {
-  content: "";
-  content: none;
-}
-
-/* line 32, ../../../../home/braintrain/.rvm/gems/ruby-2.1.1/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-a img {
-  border: none;
-}
-
-/* line 116, ../../../../home/braintrain/.rvm/gems/ruby-2.1.1/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
-  display: block;
-}
-
-/*@import "lib/susy";*/
-/* this is where the float classes live */
-/* line 2, ../sass/partials/_utils.scss */
-.float-left {
-  float: left;
-}
-
-/* line 5, ../sass/partials/_utils.scss */
-.float-right {
-  float: right;
-}
-
-/* line 8, ../sass/partials/_utils.scss */
-.clear-both {
-  clear: both;
-}
-
-/* line 11, ../sass/partials/_utils.scss */
-.clear-left {
-  clear: left;
-}
-
-/* line 14, ../sass/partials/_utils.scss */
-.clear-right {
-  clear: right;
-}
-
-/* selection classes */
-/* line 19, ../sass/partials/_utils.scss */
-.select-none {
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
-/* line 27, ../sass/partials/_utils.scss */
-.cursor-pointer {
-  cursor: pointer;
-}
-
-/* line 30, ../sass/partials/_utils.scss */
-.cursor-default {
-  cursor: default;
-}
-
-/* display/visibility */
-/* line 35, ../sass/partials/_utils.scss */
-.display-none {
-  display: none;
-}
-
-/* line 38, ../sass/partials/_utils.scss */
-.display-block {
-  display: none;
-}
-
-/* line 41, ../sass/partials/_utils.scss */
-.visibility-hidden {
-  visibility: hidden;
-}
-
-/* line 44, ../sass/partials/_utils.scss */
-.visibility-visible {
-  visibility: visible;
-}
-
-/* line 47, ../sass/partials/_utils.scss */
-.display-inline-block {
-  display: inline-block;
-}
-
-@font-face {
-  font-family: 'sketch-blockbold';
-  src: url("/media/fonts/block-bold-font/sketch_block-webfont.eot");
-  src: url("/media/fonts/block-bold-font/sketch_block-webfont.eot?#iefix") format("embedded-opentype"), url("/media/fonts/block-bold-font/sketch_block-webfont.woff") format("woff"), url("/media/fonts/block-bold-font/sketch_block-webfont.ttf") format("truetype"), url("/media/fonts/block-bold-font/sketch_block-webfont.svg#sketch_blockbold") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'eraserregular';
-  src: url("/media/fonts/eraser-font/eraserregular-webfont.eot");
-  src: url("/media/fonts/eraser-font/eraserregular-webfont.eot?#iefix") format("embedded-opentype"), url("/media/fonts/eraser-font/eraserregular-webfont.woff") format("woff"), url("/media/fonts/eraser-font/eraserregular-webfont.ttf") format("truetype"), url("/media/fonts/eraser-font/eraserregular-webfont.svg#eraserregular") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
 /*
-    standard html object overrides
+Syntax error: Invalid CSS after "...3px double #CCC": expected ";", was ":"
+        on line 36 of /github/braintrain.github.com/media/sass/partials/_portfolio.scss
+        from line 13 of /github/braintrain.github.com/media/sass/screen.scss
+
+Backtrace:
+/github/braintrain.github.com/media/sass/partials/_portfolio.scss:36
+/github/braintrain.github.com/media/sass/screen.scss:13
+/home/braintrain/.rvm/gems/ruby-2.1.1/gems/sass-3.2.14/lib/sass/scss/parser.rb:1147:in `expected'
+/home/braintrain/.rvm/gems/ruby-2.1.1/gems/sass-3.2.14/lib/sass/scss/parser.rb:1085:in `expected'
+/home/braintrain/.rvm/gems/ruby-2.1.1/gems/sass-3.2.14/lib/sass/scss/parser.rb:1080:in `tok!'
+/home/braintrain/.rvm/gems/ruby-2.1.1/gems/sass-3.2.14/lib/sass/scss/parser.rb:586:in `block in declaration_or_ruleset'
+/home/braintrain/.rvm/gems/ruby-2.1.1/gems/sass-3.2.14/lib/sass/scss/parser.rb:1123:in `call'
+/home/braintrain/.rvm/gems/ruby-2.1.1/gems/sass-3.2.14/lib/sass/scss/parser.rb:1123:in `rethrow'
+/home/braintrain/.rvm/gems/ruby-2.1.1/gems/sass-3.2.14/lib/sass/scss/parser.rb:592:in `declaration_or_ruleset'
+/home/braintrain/.rvm/gems/ruby-2.1.1/gems/sass-3.2.14/lib/sass/scss/parser.rb:554:in `block_child'
+/home/braintrain/.rvm/gems/ruby-2.1.1/gems/sass-3.2.14/lib/sass/scss/parser.rb:543:in `block_contents'
+/home/braintrain/.rvm/gems/ruby-2.1.1/gems/sass-3.2.14/lib/sass/scss/parser.rb:535:in `block'
+/home/braintrain/.rvm/gems/ruby-2.1.1/gems/sass-3.2.14/lib/sass/scss/parser.rb:529:in `ruleset'
+/home/braintrain/.rvm/gems/ruby-2.1.1/gems/sass-3.2.14/lib/sass/scss/parser.rb:553:in `block_child'
+/home/braintrain/.rvm/gems/ruby-2.1.1/gems/sass-3.2.14/lib/sass/scss/parser.rb:546:in `block_contents'
+/home/braintrain/.rvm/gems/ruby-2.1.1/gems/sass-3.2.14/lib/sass/scss/parser.rb:82:in `stylesheet'
+/home/braintrain/.rvm/gems/ruby-2.1.1/gems/sass-3.2.14/lib/sass/scss/parser.rb:27:in `parse'
+/home/braintrain/.rvm/gems/ruby-2.1.1/gems/sass-3.2.14/lib/sass/engine.rb:342:in `_to_tree'
+/home/braintrain/.rvm/gems/ruby-2.1.1/gems/sass-3.2.14/lib/sass/engine.rb:274:in `to_tree'
+/home/braintrain/.rvm/gems/ruby-2.1.1/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:225:in `visit_import'
+/home/braintrain/.rvm/gems/ruby-2.1.1/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:37:in `visit'
+/home/braintrain/.rvm/gems/ruby-2.1.1/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/home/braintrain/.rvm/gems/ruby-2.1.1/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/home/braintrain/.rvm/gems/ruby-2.1.1/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:53:in `map'
+/home/braintrain/.rvm/gems/ruby-2.1.1/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/home/braintrain/.rvm/gems/ruby-2.1.1/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+/home/braintrain/.rvm/gems/ruby-2.1.1/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+/home/braintrain/.rvm/gems/ruby-2.1.1/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+/home/braintrain/.rvm/gems/ruby-2.1.1/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/home/braintrain/.rvm/gems/ruby-2.1.1/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:128:in `visit_root'
+/home/braintrain/.rvm/gems/ruby-2.1.1/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:37:in `visit'
+/home/braintrain/.rvm/gems/ruby-2.1.1/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/home/braintrain/.rvm/gems/ruby-2.1.1/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:7:in `visit'
+/home/braintrain/.rvm/gems/ruby-2.1.1/gems/sass-3.2.14/lib/sass/tree/root_node.rb:20:in `render'
+/home/braintrain/.rvm/gems/ruby-2.1.1/gems/sass-3.2.14/lib/sass/engine.rb:315:in `_render'
+/home/braintrain/.rvm/gems/ruby-2.1.1/gems/sass-3.2.14/lib/sass/engine.rb:262:in `render'
+/home/braintrain/.rvm/gems/ruby-2.1.1/gems/compass-0.12.3/lib/compass/compiler.rb:140:in `block (2 levels) in compile'
+/home/braintrain/.rvm/gems/ruby-2.1.1/gems/compass-0.12.3/lib/compass/compiler.rb:126:in `timed'
+/home/braintrain/.rvm/gems/ruby-2.1.1/gems/compass-0.12.3/lib/compass/compiler.rb:139:in `block in compile'
+/home/braintrain/.rvm/gems/ruby-2.1.1/gems/compass-0.12.3/lib/compass/logger.rb:45:in `red'
+/home/braintrain/.rvm/gems/ruby-2.1.1/gems/compass-0.12.3/lib/compass/compiler.rb:138:in `compile'
+/home/braintrain/.rvm/gems/ruby-2.1.1/gems/compass-0.12.3/lib/compass/compiler.rb:118:in `compile_if_required'
+/home/braintrain/.rvm/gems/ruby-2.1.1/gems/compass-0.12.3/lib/compass/compiler.rb:103:in `block (2 levels) in run'
+/home/braintrain/.rvm/gems/ruby-2.1.1/gems/compass-0.12.3/lib/compass/compiler.rb:101:in `each'
+/home/braintrain/.rvm/gems/ruby-2.1.1/gems/compass-0.12.3/lib/compass/compiler.rb:101:in `block in run'
+/home/braintrain/.rvm/gems/ruby-2.1.1/gems/compass-0.12.3/lib/compass/compiler.rb:126:in `timed'
+/home/braintrain/.rvm/gems/ruby-2.1.1/gems/compass-0.12.3/lib/compass/compiler.rb:100:in `run'
+/home/braintrain/.rvm/gems/ruby-2.1.1/gems/compass-0.12.3/lib/compass/commands/watch_project.rb:147:in `recompile'
+/home/braintrain/.rvm/gems/ruby-2.1.1/gems/fssm-0.2.10/lib/fssm/path.rb:73:in `call'
+/home/braintrain/.rvm/gems/ruby-2.1.1/gems/fssm-0.2.10/lib/fssm/path.rb:73:in `run_callback'
+/home/braintrain/.rvm/gems/ruby-2.1.1/gems/fssm-0.2.10/lib/fssm/path.rb:55:in `callback_action'
+/home/braintrain/.rvm/gems/ruby-2.1.1/gems/fssm-0.2.10/lib/fssm/path.rb:35:in `update'
+/home/braintrain/.rvm/gems/ruby-2.1.1/gems/fssm-0.2.10/lib/fssm/state/directory.rb:39:in `block in modified'
+/home/braintrain/.rvm/gems/ruby-2.1.1/gems/fssm-0.2.10/lib/fssm/state/directory.rb:37:in `each'
+/home/braintrain/.rvm/gems/ruby-2.1.1/gems/fssm-0.2.10/lib/fssm/state/directory.rb:37:in `modified'
+/home/braintrain/.rvm/gems/ruby-2.1.1/gems/fssm-0.2.10/lib/fssm/state/directory.rb:18:in `refresh'
+/home/braintrain/.rvm/gems/ruby-2.1.1/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `block (2 levels) in run'
+/home/braintrain/.rvm/gems/ruby-2.1.1/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `each'
+/home/braintrain/.rvm/gems/ruby-2.1.1/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `block in run'
+/home/braintrain/.rvm/gems/ruby-2.1.1/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:15:in `loop'
+/home/braintrain/.rvm/gems/ruby-2.1.1/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:15:in `run'
+/home/braintrain/.rvm/gems/ruby-2.1.1/gems/fssm-0.2.10/lib/fssm/monitor.rb:26:in `run'
+/home/braintrain/.rvm/gems/ruby-2.1.1/gems/fssm-0.2.10/lib/fssm.rb:70:in `monitor'
+/home/braintrain/.rvm/gems/ruby-2.1.1/gems/compass-0.12.3/lib/compass/commands/watch_project.rb:87:in `perform'
+/home/braintrain/.rvm/gems/ruby-2.1.1/gems/compass-0.12.3/lib/compass/commands/base.rb:18:in `execute'
+/home/braintrain/.rvm/gems/ruby-2.1.1/gems/compass-0.12.3/lib/compass/commands/project_base.rb:19:in `execute'
+/home/braintrain/.rvm/gems/ruby-2.1.1/gems/compass-0.12.3/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+/home/braintrain/.rvm/gems/ruby-2.1.1/gems/compass-0.12.3/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+/home/braintrain/.rvm/gems/ruby-2.1.1/gems/compass-0.12.3/bin/compass:30:in `block in <top (required)>'
+/home/braintrain/.rvm/gems/ruby-2.1.1/gems/compass-0.12.3/bin/compass:44:in `call'
+/home/braintrain/.rvm/gems/ruby-2.1.1/gems/compass-0.12.3/bin/compass:44:in `<top (required)>'
+/home/braintrain/.rvm/gems/ruby-2.1.1/bin/compass:23:in `load'
+/home/braintrain/.rvm/gems/ruby-2.1.1/bin/compass:23:in `<main>'
+/home/braintrain/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `eval'
+/home/braintrain/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `<main>'
 */
-/* line 4, ../sass/partials/_portfolio.scss */
-html, body {
-  height: 100%;
-}
-
-/* line 7, ../sass/partials/_portfolio.scss */
-body {
-  background: url(/media/img/chalkboard-black-5.png) repeat;
-  font-family: "futura-pt", Fallback, sans-serif;
-  color: #CCC;
-}
-
-/* line 12, ../sass/partials/_portfolio.scss */
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'sketch-blockbold', Fallback, sans-serif;
-}
-
-/* line 15, ../sass/partials/_portfolio.scss */
-h1 {
-  font-size: 60px;
-}
-
-/* line 18, ../sass/partials/_portfolio.scss */
-h2 {
-  font-size: 40px;
-}
-
-/* line 21, ../sass/partials/_portfolio.scss */
-h4 {
-  font-size: 18px;
-}
-
-/* line 24, ../sass/partials/_portfolio.scss */
-a {
-  font-family: 'eraserregular', Fallback, sans-serif;
-  color: #109fff;
-}
-
-/*
-    content/position specific 
-*/
-/* line 32, ../sass/partials/_portfolio.scss */
-.page-title {
-  margin: 15px;
-}
-
-/* line 35, ../sass/partials/_portfolio.scss */
-.project {
-  width: 400px;
-  height: 230px;
-  margin: 20px;
-  outline-style: double;
-  position: relative;
-}
-/* line 42, ../sass/partials/_portfolio.scss */
-.project .project-header {
-  margin: 10px;
-}
-/* line 45, ../sass/partials/_portfolio.scss */
-.project .content {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  right: 10px;
-  bottom: 10px;
-}
-/* line 52, ../sass/partials/_portfolio.scss */
-.project .content .location {
-  margin: 12px;
-  font-family: 'eraserregular', Fallback, sans-serif;
-}
-/* line 56, ../sass/partials/_portfolio.scss */
-.project .content .short-header {
-  margin: 20px 0px 0px 15px;
-}
-/* line 59, ../sass/partials/_portfolio.scss */
-.project .content .short-description {
-  margin: 3px 0px 0px 15px;
-}
-
-/* line 64, ../sass/partials/_portfolio.scss */
-.quick-transition {
-  -webkit-transition: all 0.25s ease-in-out;
-  -moz-transition: all 0.25s ease-in-out;
-  -o-transition: all 0.25s ease-in-out;
-  transition: all 0.25s ease-in-out;
-}
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Invalid CSS after \"...3px double #CCC\": expected \";\", was \":\"\A         on line 36 of /github/braintrain.github.com/media/sass/partials/_portfolio.scss\A         from line 13 of /github/braintrain.github.com/media/sass/screen.scss"; }

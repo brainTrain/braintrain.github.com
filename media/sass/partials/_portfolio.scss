@@ -32,6 +32,10 @@ a {
 .page-title {
     margin: 15px;
 }
+.portfolio-source {
+    bordr-bottom: 3px double #CCC:
+    padding: 20px;
+}
 .project {
     width: 400px;
     height: 230px;
@@ -60,6 +64,9 @@ a {
             margin: 3px 0px 0px 15px;
         }
     }
+}
+.project-detail {
+    outline-style: none;
 }
 .quick-transition {
     @include transition(all 0.25s ease-in-out);
