@@ -21,7 +21,7 @@ angular.module('brainTrainProjects.services', [])
                     }
                 ],
                 "summary": "Make the internet drunk! (chrome plugin)",
-                "description": ["chrome plugin;css animations (not super performant)"]
+                "description": ["chrome plugin", "css animations (not super performant)"]
             },    
             {
                 "name":"fuckingrainbows",
@@ -75,7 +75,7 @@ angular.module('brainTrainProjects.services', [])
                     }
                 ],
                 "summary": "My digital code/config/command line notepad.",
-                "description": ["django site for keeping track of technical notes;sendmail install/config", "SSL cert"]
+                "description": ["django site for keeping track of technical notes", "sendmail install/config", "SSL cert"]
             },
             {
                 "name":"iamed",
