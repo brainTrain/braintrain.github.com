@@ -21,7 +21,7 @@ angular.module('brainTrainProjects.services', [])
                     }
                 ],
                 "summary": "Make the internet drunk! (chrome plugin)",
-                "description": "chrome plugin;css animations (not super performant)"
+                "description": ["chrome plugin;css animations (not super performant)"]
             },    
             {
                 "name":"fuckingrainbows",
@@ -39,7 +39,7 @@ angular.module('brainTrainProjects.services', [])
                     }
                 ],
                 "summary": "Invade the web with fabulous CSS3 rainbows! (bookmarklet)",
-                "description": "websockets consumer (read: frontend only... er kinda);jQuery/CSS selector approximation of the js this object;websockets + this-ish selector = remote clicking! (Don't worry, most people don't get what that means either)"
+                "description": ["websockets consumer (read: frontend only... er kinda)", "jQuery/CSS selector approximation of the js this object", "websockets + this-ish selector = remote clicking! (Don't worry, most people don't get what that means either)"]
             },
             {
                 "name":"usslomaprieta",
@@ -57,7 +57,7 @@ angular.module('brainTrainProjects.services', [])
                     }
                 ],
                 "summary": "Almost LCARS UI for an SF Star Trek club!",
-                "description": "super static site using CSS for LCARS flavorz"
+                "description": ["super static site using CSS for LCARS flavorz"]
             },
             {
                 "name":"brainnewstuff",
@@ -75,7 +75,7 @@ angular.module('brainTrainProjects.services', [])
                     }
                 ],
                 "summary": "My digital code/config/command line notepad.",
-                "description": "django site for keeping track of technical notes;sendmail install/config;SSL cert"
+                "description": ["django site for keeping track of technical notes;sendmail install/config", "SSL cert"]
             },
             {
                 "name":"iamed",
@@ -93,7 +93,7 @@ angular.module('brainTrainProjects.services', [])
                     }
                 ],
                 "summary": "Twilio audio blog for a friend with a non-smart cell phone.",
-                "description": "hacker news comment about I am Ed <a href=\"https://news.ycombinator.com/item?id=7655742\">https://news.ycombinator.com/item?id=7655742</a>;django site for Ed's audio thoughts and images;sendmail with email endpoints for a non-smartphone control (i.e. whitelisting email addresses, texting images to web server);PIL(Python Image Library) for image saving and resizing;twilio so Ed can just call a number to submit an audio blog type post"
+                "description": ["hacker news comment about I am Ed <a href=\"https://news.ycombinator.com/item?id=7655742\">https://news.ycombinator.com/item?id=7655742</a>", "django site for Ed's audio thoughts and images", "sendmail with email endpoints for a non-smartphone control (i.e. whitelisting email addresses, texting images to web server)", "PIL(Python Image Library) for image saving and resizing", "twilio so Ed can just call a number to submit an audio blog type post"]
             },
             {
                 "name":"atoddswithclarity",
@@ -111,7 +111,7 @@ angular.module('brainTrainProjects.services', [])
                     }
                 ],
                 "summary": "Personal indieweb integrated blog!",
-                "description": "django site for blogging/posting to facebook/twitter using indieweb practices"
+                "description": ["django site for blogging/posting to facebook/twitter using indieweb practices"]
             },
             {
                 "name":"fuckingsf",
@@ -129,7 +129,7 @@ angular.module('brainTrainProjects.services', [])
                     }
                 ],
                 "summary": "Floating splash site!",
-                "description": "playing around with splash pages/CSS keyframing (it floats!)"
+                "description": ["playing around with splash pages/CSS keyframing (it floats!)"]
             },
             {
                 "name":"nerdpaper",
@@ -142,13 +142,13 @@ angular.module('brainTrainProjects.services', [])
                     }
                 ],
                 "summary": "Highcharts series controls!",
-                "description": "playing around with highcharts, controls allow users to compare multiple bar graphs by sliding one over the other."
+                "description": ["playing around with highcharts, controls allow users to compare multiple bar graphs by sliding one over the other."]
             },
             {
                 "name":"ecosystem",
                 "title":"Ecosystem Shit",
                 "summary": "All projects here are either hosted on github or a box I built on linode or digital ocean.",
-                "description": "So far I've proven to myself that I can do anything I want with one box. My next ops-type goal is to learn how to configure varnish to cache all of the requests from all of the projects I'm currently hosting."
+                "description": ["So far I've proven to myself that I can do anything I want with one box. My next ops-type goal is to learn how to configure varnish to cache all of the requests from all of the projects I'm currently hosting."]
             }
         ]
         if(projectName) {
