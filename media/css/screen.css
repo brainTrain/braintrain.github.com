@@ -208,7 +208,7 @@ a {
 
 /* line 35, ../sass/partials/_portfolio.scss */
 .portfolio-source {
-  bordr-bottom: 3px double #CCC;
+  border-bottom: 3px double #CCC;
   padding: 20px;
 }
 
