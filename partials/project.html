@@ -6,8 +6,11 @@
             <p class="location">{{ location.header }}: <a href="{{ location.url }}" target="_blank">{{ location.label }}</a></p>
         </div>
         <h4 class="short-header">description notes:</h4>
-        <div ng-repeat="description in project.description">
+        <div ng-repeat="description in project.description.words">
             <p class="short-description">> {{ description }}</p>
+        </div>
+        <div ng-repeat="link in project.description.links">
+            <a href="{{ link.url }}" target="_blank"> {{ link.title }}</a>
         </div>
     </div>
 </div>
