@@ -210,7 +210,7 @@ angular.module('brainTrainProjects.services', [])
                     "links": [
                         {
                             "title": "most of my opsy/sysadmin knowledge is recorded on my brainnewstuff account",
-                            "url": "#/brainnewstuff"
+                            "url": "https://braintrain.brainnewstuff.com"
                         }
                     ]
                 }
