@@ -1,0 +1,23 @@
+{
+  "name": "braintrain.github.com",
+  "version": "1.0.0",
+  "description": "A bunch of stuff I've done",
+  "main": "index.js",
+  "dependencies": {
+    "phantomjs": "~2.1.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brainTrain/braintrain.github.com.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brainTrain/braintrain.github.com/issues"
+  },
+  "homepage": "https://github.com/brainTrain/braintrain.github.com#readme"
+}
