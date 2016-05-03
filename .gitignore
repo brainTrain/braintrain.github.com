@@ -1,1 +1,6 @@
-.DS_Store
+*.DS_Store
+*.swp
+*.map
+.sass-cache
+node_modules/
+build/
